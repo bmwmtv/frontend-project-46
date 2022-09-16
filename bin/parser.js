@@ -2,12 +2,8 @@ import { readFileSync } from 'fs';
 import _ from 'lodash';
 
 const diff = (data1, data2) => {
-  const keys1 = _.keys(data1);
-  const keys2 = _.keys(data2);
-  const keys = _.union(keys1, keys2);
-  keys.sort();
-  // console.log('key=', keys);
-  // console.log('data1=', data1);
+  const keys = _.union(_.keys(data1), _.keys(data2)).sort();
+
   const result = [];
   result.push('{');
   keys.map((key) => {
@@ -45,7 +41,6 @@ const parser = (filepath1, filepath2) => {
   const dataParse1 = JSON.parse(data1);
   const dataParse2 = JSON.parse(data2);
 
-  // console.log(dataParse1 , dataParse2);
   return diff(dataParse1, dataParse2);
 };
 
