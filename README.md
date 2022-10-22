@@ -31,3 +31,13 @@ Utility features:
     gendiff <file1> <file2> --format <format>
 
 ### Demo
+
+Help 
+[![asciicast](https://asciinema.org/a/Dtl6VoBuw6zzMxuoNy0UZQQbS.svg)](https://asciinema.org/a/Dtl6VoBuw6zzMxuoNy0UZQQbS)
+
+JSON
+[![asciicast](https://asciinema.org/a/sLQxcf4jk5lYK09hmLeKDAC1j.svg)](https://asciinema.org/a/sLQxcf4jk5lYK09hmLeKDAC1j)
+
+YML
+[![asciicast](https://asciinema.org/a/QR2zkiprkxIlUwys3Q97rD1pL.svg)](https://asciinema.org/a/QR2zkiprkxIlUwys3Q97rD1pL)
+
