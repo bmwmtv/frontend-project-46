@@ -4,8 +4,6 @@ import buildDiff from './buildDiff.js';
 import getFormatting from './formatters/index.js';
 import parse from './parsers.js';
 
-// import { fileURLToPath } from 'url';
-
 const getPath = (filename) => path.resolve(process.cwd(), filename);
 
 const getFileFormat = (filename) => path.extname(filename).slice(1);
